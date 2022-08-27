@@ -1,0 +1,188 @@
+ body{
+    width: auto;
+ }
+ .height{
+    height: 400px;
+}
+ html{font-size: 100%;
+width: 100%;}
+ 
+nav .navbar{
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* height: 400px*/
+} 
+.navbar .logo{
+    width: 100%;
+}
+.navbar .logo img{
+    margin:10px 2rem ;
+    border-radius: 100%;
+    margin-left: 8rem;
+}
+.burger{
+    display: block;
+}
+.navlist{
+    flex-direction: column;
+    width: 100%;
+}
+.bar ul li {
+    margin: 1rem;
+    position:relative;
+}
+.bar ul li a{
+     /* background-color: none; */
+     margin-left: 8rem;
+}
+#home{
+    /* width: 674px; */
+    height: 562px;
+}
+#home::before{
+    height: 100%;
+}
+#contact::before{
+    height: 75%;
+}
+#languages::before{
+    height: 84%;
+}
+
+.bar ul{
+    flex-direction: column;
+    /* height: 200px; */
+}
+
+.hnav{
+    height: 55px;
+}
+.v-class{
+    opacity: 0;
+}
+#home .hello{
+    margin-left: 0rem;
+    position: absolute;
+    left: 70%;
+    flex-wrap: wrap;
+}
+#home .hello h1{
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+#home .hello h2{
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+#home .line{
+    flex-wrap: wrap;
+}
+#home .line h3{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+#home .line h4{
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+#about{
+    height: 540px;
+}
+#about::before{
+    height: 120%;
+}
+#about .main{
+    /* flex-direction: column; */
+    margin: 1rem;
+}
+.aboutme{
+    margin: 1rem;
+    margin-right: 4rem;
+}
+.aboutme img{
+    width: 100px;
+    max-height: 80%;
+}
+.aboutme1{
+    margin: 0px;
+    padding: 0px;
+}
+.aboutme1 p{
+    font-size: 12px;
+    text-align: unset;
+    margin: 0rem 10px;
+}
+.heading img{
+    width: 280px;
+}
+.heading h1{
+    font-size: 20px;
+}
+
+
+.fe{
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.fe .html h1,.css h1 , .js h1, .c h1{
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.html , .css {
+    padding: 0px 38px;
+    margin: 0px;
+    
+}
+.c , .js{
+    margin: 0px 20px;
+    padding: 0px;
+}
+#projects{
+    height: 1027px
+}
+#projects::before{
+    height: 183%;
+}
+
+.project1{
+    flex-direction: column;
+}
+.project1 img{
+    margin: 1rem 0px;
+    max-width: 100%;height: auto;
+    height: 125px;
+    border-radius: 10px;
+}
+.project1 .p1info p{
+    font-size: 10px;
+    flex-wrap: wrap;
+}
+
+.contactme{
+    margin: 20px 0rem;
+    /* position: absolute; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.contactme .email h1{
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+.contactme .email h2{
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+.social{
+    margin: 36px 20px;
+    flex-wrap: wrap;
+}
+.social h2{
+    font-size: 17px;
+}
+.sm a img{
+    width: 10px;
+}
+.sm h3{
+    font-size: 13px;
+}
